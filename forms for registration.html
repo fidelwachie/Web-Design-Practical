@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Registration Form</title>
+</head>
+<body>
+  <h1>Patient Registration</h1>
+  <form action="" method="post" name="patientRegistration">
+
+    <p>
+      Name:
+      <br/>
+      <input type="text" name="name" placeholder="Enter full name" />
+    </p>
+
+    <p>
+      Age / Date of Birth:
+      <br/>
+      <input type="date" name="dob" />
+    </p>
+
+    <p>
+      Gender:
+      <br/>
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+      <input type="radio" name="gender" value="other" /> Other
+    </p>
+
+    <p>
+      ID Number:
+      <br/>
+      <input type="text" name="idnumber" placeholder="Enter national ID number" />
+    </p>
+
+    <p>
+      Phone Number:
+      <br/>
+      <input type="text" name="phone" placeholder="07XXXXXXXX" />
+    </p>
+
+    <p>
+      Patient ID:
+      <br/>
+      <input type="text" name="patientid" placeholder="Enter patient ID" />
+    </p>
+
+    <p>
+      Health Status (Disability):
+      <br/>
+      <input type="checkbox" name="healthstatus" value="hasDisability" /> Has a disability
+    </p>
+
+    <p>
+      Address:
+      <br/>
+      <textarea name="address" cols="30" rows="3"></textarea>
+    </p>
+
+    <p>
+      Marital Status:
+      <br/>
+      <input type="radio" name="maritalstatus" value="single" /> Single
+      <input type="radio" name="maritalstatus" value="married" /> Married
+      <input type="radio" name="maritalstatus" value="divorced" /> Divorced
+      <input type="radio" name="maritalstatus" value="widowed" /> Widowed
+    </p>
+
+    <p>
+      Next of Kin:
+      <br/>
+      <input type="text" name="nextofkin" placeholder="Enter next of kin's name" />
+    </p>
+
+    <p>
+      Weight (kg):
+      <br/>
+      <input type="number" name="weight" step="0.1" placeholder="Enter weight in kg" />
+    </p>
+
+    <p>
+      <input type="submit" value="Register Patient" />
+      <input type="reset" value="Clear Form" />
+    </p>
+
+  </form>
+</body>
+</html>
